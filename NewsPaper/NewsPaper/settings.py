@@ -166,7 +166,7 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = 'news/'  # страница, на которую
+LOGIN_REDIRECT_URL = '/news/'  # страница, на которую
 # перенаправляется пользователь после успешного входа
 # на сайт, в данном случае корневая страница сайта
 LOGIN_URL = '/accounts/login/'  # страница аутентификации
